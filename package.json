@@ -1,0 +1,41 @@
+{
+  "name": "node-arlo-api",
+  "version": "1.0.0",
+  "description": "NodeJS wrapper around Arlo event-based API.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakmckracken1988/node-arlo-api.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "Arlo"
+  ],
+  "author": "Zak",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/zakmckracken1988/node-arlo-api/issues"
+  },
+  "homepage": "https://github.com/zakmckracken1988/node-arlo-api#readme",
+  "dependencies": {
+    "JSON": "^1.0.0",
+    "clui": "^0.3.1",
+    "dateformat": "^2.0.0",
+    "debug": "^2.6.0",
+    "eventsource": "^0.2.1",
+    "fluent-ffmpeg": "^2.1.0",
+    "inquirer": "^2.0.0",
+    "minimist": "^1.2.0",
+    "node-rest-client": "^2.0.1",
+    "node-uuid": "^1.4.7",
+    "properties-reader": "0.0.15",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
