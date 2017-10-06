@@ -17,4 +17,20 @@ You still will be prompted providing username and password whereas the defaults
 are those passed.
 
 The example shows how to derive device information, arm or disarm the system.
-This should provide a basic understand of using the API in general. 
+This should provide a basic understand of using the API in general.
+
+# Example based on arlo-api.js
+
+If you just want to copy the contents of arlo-api.js and use that, here's how it
+might look within your app:
+
+```
+import ArloApi from 'arlo';
+
+const arlo = new ArloApi('username', 'password');
+const auth = {username: 'username', password: 'password'};
+const arlo = new ArloApi(auth.username, auth.password);
+
+const devices = arlo.getDevices();
+const cameras = arlo.getDevices().then(deviceArray => arlo.getCameras(deviceArray[0].deviceId, deviceArray[0].xCloudId)));
+```
