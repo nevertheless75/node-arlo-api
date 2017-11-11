@@ -97,18 +97,7 @@ function prompt() {
         }
         if (answers.operation == "Basestation"){
             this.arlo.getBaseStation(this.deviceId, this.xCloudId).then(print).then(promptAgain);
-        }
-        // if (answers.operation == "Basestation"){
-        //      this.arlo.getDevices(this.deviceId, this.xCloudId)
-        //         .then(function (devices){
-        //             var deviceOptions = [];
-        //             for (var i = 0; i < devices.length; i++){
-        //                 if (devices[i].deviceType == "basestation"){
-        //                     console.log(devices[i]);
-        //                 }
-        //             }
-        //     }).then(promptAgain);
-        // }
+        }s
         if (answers.operation == "Cameras"){
             this.arlo.getCameras(this.deviceId, this.xCloudId).then(print).then(promptAgain);
         }
