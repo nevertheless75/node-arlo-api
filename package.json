@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zakmckracken1988/node-arlo-api.git"
+    "url": "git+https://github.com/nevertheless75/node-arlo-api.git"
   },
   "keywords": [
     "JavaScript",
     "NodeJS",
     "Arlo"
   ],
-  "author": "Zak",
+  "author": "Nevertheless",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/zakmckracken1988/node-arlo-api/issues"
+    "url": "https://github.com/nevertheless75/node-arlo-api/issues"
   },
-  "homepage": "https://github.com/zakmckracken1988/node-arlo-api#readme",
+  "homepage": "https://github.com/nevertheless75/node-arlo-api#readme",
   "dependencies": {
     "JSON": "^1.0.0",
     "clui": "^0.3.1",
